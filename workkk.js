@@ -116,3 +116,100 @@ console.log(iceCreamFlavours[0]);
 console.log(iceCreamFlavours[iceCreamFlavours.length-1]);
 console.log(iceCreamFlavours.length);*/
 
+
+
+
+/*function range(start, end, step) {
+  if (start === undefined || end === undefined || step === undefined || start > end || step < 0)
+    return [];
+  else {
+    var range = [];
+    for (var i = start; i <= end; i += step) {
+      range.push(i);
+    }//for
+    return range;
+  }//else
+}//range
+
+console.log(range(0, 10, 2));
+console.log(range(10, 30, 5));
+console.log(range(-5, 2, 3));*/
+
+
+
+
+
+
+
+/*function lastIndexOf(array, value) {
+  for (var i = array.length; i > 0; i--) {
+    if (array[i - 1] === value)
+      return i - 1;
+  }
+  return -1;
+}*/
+
+
+
+
+
+
+
+/*function concat(array1, array2) {
+  for (var i = 0; i < array2.length; i++) {
+    array1.push(array2[i]);
+  }
+  return array1;
+}
+
+console.log(concat([1, 2, 3], [4, 5, 6]), "=?", [1, 2, 3, 4, 5, 6]);
+console.log(concat([0, 3, 1], [9, 7, 2]), "=?", [0, 3, 1, 9, 7, 2]);
+console.log(concat([], [9, 7, 2]), "=?", [9, 7, 2]);
+console.log(concat([5, 10], []), "=?", [5, 10]);*/
+
+
+
+
+
+
+/*const smartGarbage = function (trash, bins) {
+  // Your code in here ...
+  switch (trash) {
+    case 'waste':
+      bins['waste']++;
+      break;
+    case 'recycling':
+      bins['recycling']++;
+      break;
+    case 'compost':
+      bins['compost']++;
+      break;
+  }
+  return bins;
+};*/
+
+
+
+
+
+
+/*const carPassing = function (cars, speed) {
+  // Your code in here ...
+  let time = Date.now()
+  var person = {
+    time: time,
+    speed: speed
+  }
+  cars.push(person)
+  return cars
+
+}*/
+
+
+
+const judgeVegetable = function (vegetables, metric) {
+  // Your code in here ...
+  return   vegetables.reduce( (winner, contestant) =>
+                          contestant[metric] > winner[metric] ? contestant : winner).submitter
+
+}
