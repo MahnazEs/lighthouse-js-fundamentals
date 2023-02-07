@@ -207,9 +207,9 @@ console.log(concat([5, 10], []), "=?", [5, 10]);*/
 
 
 
-const judgeVegetable = function (vegetables, metric) {
+/* const judgeVegetable = function (vegetables, metric) {
   // Your code in here ...
   return   vegetables.reduce( (winner, contestant) =>
                           contestant[metric] > winner[metric] ? contestant : winner).submitter
 
-}
+} */
